@@ -6,6 +6,14 @@
 
 article {
   display: grid;
+  background-color: #33394b;
+  padding: 10px;
+}
+
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 8fr 40px 50px;
 }
 
 .left-arrow {
@@ -18,6 +26,26 @@ article {
 
 .menu-icon {
   height: 30px;
+}
+
+.picture {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-gap: 10px;
+}
+
+.socials {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .github-icon {
