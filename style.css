@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  display: grid;
+}
+
+.left-arrow {
+  height: 30px;
+}
+
+.love-heart {
+  height: 30px;
+}
+
+.menu-icon {
+  height: 30px;
+}
+
+.github-icon {
+}
+
+.twitter-icon {
+  height: 50px;
+}
+
+.codesandbox-icon {
+  background-color: black;
+}
